@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-site-landing-page",
+  "version": "1.0.0",
+  "description": "just tried a hand on html css to design the homepage for sample portfolio site. Hope u like it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geeky-hypertext629/portfolio-site-landing-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geeky-hypertext629/portfolio-site-landing-page/issues"
+  },
+  "homepage": "https://github.com/geeky-hypertext629/portfolio-site-landing-page#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,268 @@
+body
+{
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+    background-color: #1c1c1c;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    color: white;
+}
+.options
+{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 97px;
+}
+.logo
+{
+    width: 58px;
+    height: 58px;
+    padding: 15px 30px;
+    margin-left: 101px;
+}
+.options li a{
+    text-decoration: none;
+    padding: 15px 25px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+/* Styling main section */
+
+.container
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #1c1c1c;
+    color: white;
+    height: 88vh;
+}
+.image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image .my_img
+{
+    border-radius: 50%;
+}
+.about
+{
+    text-align: left;
+    box-sizing: content-box;
+    margin: auto;
+    font-size: 1.5rem;
+    line-height: 0.9;
+}
+.passion
+{
+    color: rgb(168, 175, 183);
+}
+.orange
+{
+    color: #ff5403;
+}
+a.orange
+{
+    text-decoration: none;
+}
+.btn-1,.btn-2
+{
+    padding: 17px 18px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    /* box-shadow: 5px 10px #ff5403; */
+    outline: 2px solid #ff5403;
+    margin: 15px 25px auto 2px;
+    cursor: pointer;
+}
+.btn-2
+{
+    background-color: #1c1c1c;
+    color: white;
+}
+.btn-2:hover
+{
+    background-color: #ff5403;
+}
+.btn-1
+{
+    background-color: #ff5403;
+    color: white;
+    border: none;
+}
+.follow
+{
+    font-size: 1rem;
+}
+.icons
+{
+
+    margin-left: 18px;
+}
+.icons i
+{
+    padding: 0 5px;
+    font-size: 1.5rem;
+}
+hr{
+    background: white;
+    margin: 0%;
+    padding: 0%;
+    border-style: solid;
+}
+
+/* Section 2 */
+
+.container2
+{
+    width: 80%;
+    margin: auto;
+    background-color: #2f2f2f;
+    border-radius: 50px;
+    color: white;
+}
+.container2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.clipart
+{
+    float: left;
+    padding: 80px;
+}
+.content
+{
+    width: 50%;
+    /* margin: auto; */
+    float: right;
+    /* margin: auto; */
+    padding-top: 100px;
+    padding-right: 50px;
+    
+}
+.content h2
+{
+    color: #90c0e8;
+}
+.plus
+{
+    color: rgb(142, 210, 169);
+}
+
+
+/* section-3 */
+
+.why_me
+{
+    color: #6fc2c5;
+    text-align: center;
+    margin: 1.5rem 0 1.5rem;
+    padding: 2rem;
+}
+.why_me span
+{
+    color: #ff5403;
+}
+.grid-parent
+{
+    width: 75vw;
+    margin: auto;
+    display: grid;
+    grid-template-rows: max-content;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2rem;
+}
+.grid-parent h3
+{
+    text-align: center;
+    color: #84a1ff;
+    font-size: 1.5rem;
+}
+.grid-parent p
+{
+    color: #8a94a6;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 2;
+}
+.grid-parent img
+{
+    width: 99%;
+}
+
+.interested
+{
+    width: 80%;
+    margin: 2rem auto;
+    background-color: #cd921e;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2rem;
+    align-items: center;
+}
+.int_left
+{
+    width: 30%;
+    color: white;
+    padding: 2rem;
+    text-align: left;
+}
+.int_right
+{
+    padding: 2rem;
+    width: 70%;
+    text-align: center;
+}
+.email
+{
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+
+}
+.projects
+{
+    font-size: 1.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    color: white;
+    background-color: #cd921e;
+    border: 1px solid white;
+}
+.email:hover
+{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.projects:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    background-color: white;
+    color: #1c1c1c;
+}
+.resume,.socialsicon
+{
+    text-decoration: none;
+    color: white;
+}
+.mailto
+{
+    text-decoration: none;
+    color: white;
+}
